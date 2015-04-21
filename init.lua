@@ -31,12 +31,12 @@ mg_villages.add_building( { scm="gambit_cementry_0_180",         mts_path=path, 
 mg_villages.add_building( { scm="gambit_field_1_1_90",           mts_path=path, weight={gambit=1},   inh=0,  typ='field'});
 mg_villages.add_building( { scm="gambit_forge_1_2_270",          mts_path=path, weight={gambit=4},   inh=-1, typ='forge',    pervillage=1});
 mg_villages.add_building( { scm="gambit_fountain_1_1_90",        mts_path=path, weight={gambit=1/6}, inh=0,typ='fountain'});
-mg_villages.add_building( { scm="gambit_house_1_0_0",            mts_path=path, weight={gambit=3},   inh=3,  typ='house'});
+mg_villages.add_building( { scm="gambit_house_1_0_0",            mts_path=path, weight={gambit=3, single=1},   inh=3,  typ='house'});
 mg_villages.add_building( { scm="gambit_lamp_0_270",             mts_path=path, weight={gambit=1},   inh=0,  typ='lamp', avoid='lamp'});
-mg_villages.add_building( { scm="gambit_library_hotel_0_180",    mts_path=path, weight={gambit=1},   inh=4,  typ='hotel'});
-mg_villages.add_building( { scm="gambit_pub_1_0_0",              mts_path=path, weight={gambit=1},   inh=1,  typ='pub'});
+mg_villages.add_building( { scm="gambit_library_hotel_0_180",    mts_path=path, weight={gambit=1, single=1},   inh=4,  typ='hotel'});
+mg_villages.add_building( { scm="gambit_pub_1_0_0",              mts_path=path, weight={gambit=1, single=1},   inh=1,  typ='pub'});
 mg_villages.add_building( { scm="gambit_shed_open_chests_2_0",   mts_path=path, weight={gambit=1},   inh=0,  typ='shed'});
 mg_villages.add_building( { scm="gambit_shop_0_90",              mts_path=path, weight={gambit=1},   inh=-1, typ='shop'});
 mg_villages.add_building( { scm="gambit_shop_large_0_0",         mts_path=path, weight={gambit=1},   inh=1,  typ='shop'});
-mg_villages.add_building( { scm="gambit_stable_1_2_90",          mts_path=path, weight={gambit=1},   inh=1,  typ='stable'});
+mg_villages.add_building( { scm="gambit_stable_1_2_90",          mts_path=path, weight={gambit=1, single=1},   inh=1,  typ='stable'});
 mg_villages.add_building( { scm="gambit_tower_1_0_270",          mts_path=path, weight={gambit=1/6}, inh=-1, typ='tower'});
